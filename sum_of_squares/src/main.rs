@@ -14,7 +14,7 @@ mod tests {
 
     #[test]
     fn test_square() {
-        assert_eq!(square(2), 4);
+        assert_eq!(square(2), 4)
     }
 }
 
