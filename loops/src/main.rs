@@ -1,25 +1,38 @@
 fn main() {
-    // let mut number = 3;
+   // let mut counter = 0;
 
-    // while number != 0 {
-    //     println!("{}!", number);
-    //     number = number - 1;
-    // }
+   // let result = loop {
+       // counter += 1;
 
-    // println!("LIFTOFF!!!");
+      //  if counter == 10 {
+      //      break counter * 2;
+    //    }
+  //  };
 
-    // let a = [10, 20, 30, 40, 50];
-    // let mut index = 0;
+  //  println!("The result is {}", result);
 
-    // while index < 5 {
-    //     println!("the value is: {}", a[index]);
+   // let mut number = 3;
 
-    //     index = index + 1;
-    // }
+   // while number != 0 {
+     //   println!("{}!", number);
 
-    // for element in a.iter() {
-    //     println!("the value is: {}", element);
-    // }
+       // number = number - 1;
+   // }
+
+   // println!("LIFTOFF!!!");
+   
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", a[index]);
+
+        index = index + 1;
+    }
+
+    for element in a.iter() {
+        println!("THE VALUE IS: {}", element);
+    }
 
     for number in (1..4).rev() {
         println!("{}!", number);
