@@ -1,0 +1,1 @@
+C:\Users\evan1\OneDrive\Documents\GitHub\rust-prac\temperature_conversion\target\debug\temperature_conversion.exe: C:\Users\evan1\OneDrive\Documents\GitHub\rust-prac\temperature_conversion\src\main.rs
