@@ -1,6 +1,13 @@
 use std::io;
+use std::cmp::Ordering;
+use rand::Rng;
 
 fn main() {
+    let mut rng = rand::thread_rng().gen_range(1, 10);
+
+    for _ in 1..10 {
+        rng.gen::<f64>();
+    }
 
     println!("Please choose a number");
 
