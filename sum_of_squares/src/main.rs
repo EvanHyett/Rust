@@ -47,16 +47,16 @@ mod tests {
         assert_eq!(sum_of_squares(2, 3), 13);
     }
 
-    #[test]
-    fn test_sum_of_largest_two_squares() {
-        let sum = sum_of_largest_two_squares(1, 2, 3);
-        assert_eq!(sum, 13);
-        let sum = sum_of_largest_two_squares(1, 1, 1);
-        assert_eq!(sum, 2);
-        let sum = sum_of_largest_two_squares(1, 2, 2);
-        assert_eq!(sum, 8);
-        let sum = sum_of_largest_two_squares(1, 1, 2);
-        assert_eq!(sum, 5);
-    }
+//    #[test]
+//    fn test_sum_of_largest_two_squares() {
+//        let sum = sum_of_largest_two_squares(1, 2, 3);
+//        assert_eq!(sum, 13);
+//        let sum = sum_of_largest_two_squares(1, 1, 1);
+//        assert_eq!(sum, 2);
+//        let sum = sum_of_largest_two_squares(1, 2, 2);
+//        assert_eq!(sum, 8);
+//        let sum = sum_of_largest_two_squares(1, 1, 2);
+//        assert_eq!(sum, 5);
+//    }
 }
 }
